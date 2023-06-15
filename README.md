@@ -9,6 +9,8 @@
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
+Посмотреть видеоплеер можно [по ссылке](https://semellot.github.io/video-player-jslib/dist/index.html).
+
 ## Примеры
 
 Два рабочих примера:
