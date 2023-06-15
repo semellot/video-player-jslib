@@ -19,5 +19,8 @@
   cursor: pointer;
   color: white;
   background: transparent;
+  height: 30px;
+  width: 30px;
   font-size: 20px;
+  margin: 5px;
 }
