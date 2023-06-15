@@ -4,15 +4,16 @@
   <title>Видеоплеер</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <div style="background: black;">
-      <button class="js-play-button" style="border-style: none; cursor: pointer; color: white; background: transparent; height: 30px; width: 30px;">
+  <div id="player" class="container">
+    <div class="video-container js-video-container"></div>
+    <div class="bottom-controls">
+      <button class="player-button js-play-button">
         <i class="fa fa-play" aria-hidden="true"></i>
       </button>
-      <button class="js-pause-button" style="border-style: none; cursor: pointer; color: white; background: transparent; height: 30px; width: 30px;" hidden>
+      <button class="player-button js-pause-button" hidden>
         <i class="fa fa-pause" aria-hidden="true"></i>
       </button>
     </div>
