@@ -2,11 +2,12 @@
   width: 800px;
   height: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  display: flex;
+  flex-direction: column;
 }
 
 .video-container {
-  width: 100%;
-  height: 100%;
+  flex-grow: 1;
 }
 
 .bottom-controls {
@@ -18,6 +19,4 @@
   cursor: pointer;
   color: white;
   background: transparent;
-  height: 30px;
-  width: 30px;
 }
