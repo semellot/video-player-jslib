@@ -1,4 +1,4 @@
-.container {
+.vp-container {
   width: 800px;
   height: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -6,17 +6,17 @@
   flex-direction: column;
 }
 
-.video-container {
+.vp-container .video-container {
   flex-grow: 1;
 }
 
-.bottom-controls {
+.vp-container .bottom-controls {
   background: black;
   display: flex;
   flex-direction: row;
 }
 
-.player-button {
+.vp-container .player-button {
   border-style: none;
   cursor: pointer;
   color: white;
