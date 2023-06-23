@@ -16,6 +16,14 @@
   flex-direction: row;
 }
 
+.vp-container .bottom-controls .left-buttons div {
+  float: left;
+}
+
+.vp-container .bottom-controls .viewing-panel {
+  flex-grow: 1;
+}
+
 .vp-container .player-button {
   border-style: none;
   cursor: pointer;
@@ -27,6 +35,15 @@
   margin: 4px 4px 5px 3px;
 
 }
-.empty-space {
+
+.vp-container .viewing-panel {
+  display: flex;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  height: 28px;
+  margin: 12px 0 0;
+}
+
+.vp-container .viewing-panel .viewing-progressbar {
   flex-grow: 1;
 }
