@@ -44,16 +44,22 @@
   margin: 12px 0;
 }
 
+.vp-container .viewing-panel:hover .dot {
+  opacity: 1;
+  transition-duration: .3s;
+}
+
 .vp-container .viewing-panel .viewing-progressbar {
   flex-grow: 1;
   display: flex;
   padding: 0 2px;
+  margin-left: 10px;
 }
 
 .vp-container .viewing-panel .viewing-progressbar .viewing-progress {
   background-color: red;
   height: 5px;
-  margin: 7px 0 7px 10px;
+  margin: 7px 0;
   border-radius: 30px;
 }
 
@@ -65,5 +71,7 @@
   display: inline-block;
   border: solid 3px #fff;
   box-shadow: 0 0 2px rgba(0,0,0,0.5);
-  margin: 3px -14px;
+  margin: 3px -7px;
+  opacity: 0;
+  transition-duration: .3s;
 }
