@@ -17,10 +17,13 @@
   background: black;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.vp-container .bottom-controls .left-buttons div {
-  float: left;
+.vp-container .bottom-controls .left-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .vp-container .bottom-controls .viewing-panel {
@@ -43,7 +46,8 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
   height: 19px;
-  margin: 12px 0;
+  align-items: center;
+  font-size: 16px;
 }
 
 .vp-container .viewing-panel:hover .dot {
@@ -56,6 +60,7 @@
   display: flex;
   padding: 0 2px;
   margin-left: 10px;
+  align-items: center;
 }
 
 .vp-container .viewing-panel .viewing-progressbar .viewing-progress {
